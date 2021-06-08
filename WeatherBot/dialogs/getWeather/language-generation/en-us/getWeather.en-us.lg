@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# SendActivity_R8yJ7g()
+- Let's check the weather
+# TextInput_Prompt_Ia9cRQ()
+- What's your zip code?
+# TextInput_UnrecognizedPrompt_Ia9cRQ()
+- Sorry, I don't understand '${this.value}'. Please specify a 5 digit zip code in the format 12345.
+# TextInput_InvalidPrompt_Ia9cRQ()
+- Sorry, '${this.value}' is not valid. I'm looking for a 5 digit number as zip code. Please specify a 5 digit zip code in the format 12345.
+# TextInput_DefaultValueResponse_Ia9cRQ()
+- 98052
+# SendActivity_BQqKhI()
+-Your city is ${dialog.weather.city}. \n The weather is ${dialog.weather.weather} and the temp is ${dialog.weather.temp} \n ${dialog.weather.icon}
+# SendActivity_b3YV9H()
+- I got an error: ${dialog.api_response.content.message}
